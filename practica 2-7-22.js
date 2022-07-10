@@ -11,9 +11,16 @@ var problemas = [
     "Jose ha ido con sus primos al teatro. Han pagado en total 4325 pesos por 3 entradas de adulto y 4 infantiles. Cada entrada de adulto cuesta 875 pesos.\n¿Cuanto cuesta cada entrada de infantil?",
     "Un auto realiza un viaje de 6 horas. EN cada una de las horas recorre: 100km, 120km, 110km, 95km, 89km, 110km.\n¿Cauntos kilometros ha recorrido?",
     "Daniel es conserje de un colegio. En un armario tiene 5 filas con 5 llaveros en cada fila. Cada llavero tiene 5 llaves.\n¿Cuantas llaves tiene en el armario?",
-    "De un almacen han salido 6 camionetas con 6 percheros en cada una. Cada perchero tiene 6 perchas y en cada percha hay colgados 6 pantalones.\n¿Cuantos pantalones hay en total en las 6 camionetas?"
+    "De un almacen han salido 6 camionetas con 6 percheros en cada una. Cada perchero tiene 6 perchas y en cada percha hay colgados 6 pantalones.\n¿Cuantos pantalones hay en total en las 6 camionetas?",
+    "Sara compor varios refrescos a 12 pesos cada uno. Pago con un billete de 200 pesos y le devolvieron 32 pesos.\n¿Cuantos refrescos compro Sara?",
+    "Lucia esta aprendiendo a manejar. Cada dia da una clase teorica de 50 minutos y otra clase practiva de 35 minutos.\n¿Cuantos minutos de clase da Lucia cada dia?",
+    "Un supermecardo recibe un envio de 20 cajas de cereales con 30 paquetes cada una. Si cada paquete pesa 250 gramos, ¿cuantos kilogramos pesa el envio?",
+    "En una carrera han participado 7000 personas entre hombres y mujeres, y 5000 personas entre mujere y niños. Si han corrido 3000 mujeres, ¿Cuantas personas han participado en total?",
+    "En un hormiguero viven 245 hormigas. ¿Cuántas hormigas vivirán en 23 hormigueros iguales?",
+    "Pedro ha comprado 6 bolsas de caramelos. Si en cada bolsa hay 10 caramelos, ¿cuántos ha comprado Pedro?",
+    "Los padres de Fernando han pagado parte de su casa con 100 billetes de 500 euros. Averigua cuánto vale la casa si su precio total es el triple de lo que han pagado."
 ]
-var resultados = [11640, 20, 1390, 425, 624, 125, 1296]
+var resultados = [11640, 20, 1390, 425, 624, 125, 1296, 14, 85, 150, 9000, 5635, 60, 150000]
 
 var respuesta = prompt(problemas[numero1-1])
 respuesta = parseFloat(respuesta)
