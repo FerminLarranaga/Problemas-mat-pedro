@@ -1,7 +1,3 @@
-var numero1 = prompt("elige un numero del 1 al 7 o te mato")
-
-numero1 = parseFloat(numero1) 
-console.log(numero1)
 // var numero2 = prompt("elige un numero o te mato")
 // numero2 = parseFloat(numero2)// console.log(numero2)
 var problemas = [
@@ -21,6 +17,11 @@ var problemas = [
     "Los padres de Fernando han pagado parte de su casa con 100 billetes de 500 euros. Averigua cuánto vale la casa si su precio total es el triple de lo que han pagado."
 ]
 var resultados = [11640, 20, 1390, 425, 624, 125, 1296, 14, 85, 150, 9000, 5635, 60, 150000]
+
+var numero1 = prompt("elige un numero del 1 al " + (problemas.length + 1) + " o te mato")
+
+numero1 = parseFloat(numero1) 
+console.log(numero1)
 
 var respuesta = prompt(problemas[numero1-1])
 respuesta = parseFloat(respuesta)
