@@ -14,11 +14,12 @@ var problemas = [
     "En una carrera han participado 7000 personas entre hombres y mujeres, y 5000 personas entre mujere y niños. Si han corrido 3000 mujeres, ¿Cuantas personas han participado en total?",
     "En un hormiguero viven 245 hormigas. ¿Cuántas hormigas vivirán en 23 hormigueros iguales?",
     "Pedro ha comprado 6 bolsas de caramelos. Si en cada bolsa hay 10 caramelos, ¿cuántos ha comprado Pedro?",
-    "Los padres de Fernando han pagado parte de su casa con 100 billetes de 500 euros. Averigua cuánto vale la casa si su precio total es el triple de lo que han pagado."
+    "Los padres de Fernando han pagado parte de su casa con 100 billetes de 500 euros. Averigua cuánto vale la casa si su precio total es el triple de lo que han pagado.",
+"Martin tiene una empresa de traducciones. Cada palabra traducida del inglés al español cuesta 0.25$, y cada palabra del español al inglés cuesta 0.75$. Si un documento tiene 252 palabras en ingles y 80 palabras en español, cuánto valdrá traducir el documento?"
 ]
-var resultados = [11640, 20, 1390, 425, 624, 125, 1296, 14, 85, 150, 9000, 5635, 60, 150000]
+var resultados = [11640, 20, 1390, 425, 624, 125, 1296, 14, 85, 150, 9000, 5635, 60, 150000, 123]
 
-var numero1 = prompt("elige un numero del 1 al " + (problemas.length + 1) + " o te mato")
+var numero1 = prompt("elige un numero del 1 al " + (problemas.length) + " o te mato")
 
 numero1 = parseFloat(numero1) 
 console.log(numero1)
