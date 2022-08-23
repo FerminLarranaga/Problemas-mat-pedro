@@ -20,8 +20,10 @@ var problemas = [
     "El precio orginal de la ropa en un shopping es 100$, pero ahora esta en oferta de 80% de descuento. Si vos tenes 460$ pesos, cuanta ropa podes comprar?",
     "Los chicos de jardin quieren pasar de un lado del rio al otro lado, en el barco solo se pueden sentar 8 personas, y el profesor y los alumnos son en total 57 personas. Si el profesor tiene que ir en cada viaje del barco, cuantas veces hay que usar el barco para que todos pasen al otro lado del rio?",
     "Un colegio necesita comprar sillas y mesas para los salones. Cada mesa necesita 5 sillas, y cada salon necesita 3 mesas. Si cada mesa vale 340$ y cada silla vale cuatro veces menos que las mesas, cuanta plata tendra que gastar el colegio si hay 24 salones?",
+    "Juan pesa 16 kg menos que Bautista y 18 kg más que Peter. Si Bautista pesa 34 kg mas que Peter, y Peter pesa 62 kg, ¿Cuánto pesan Juan?",
+    "Un casino quiere renovar las sillas y mesas que estan rotas o viejas. Cada 2 mesas hay que renovar 3 sillas, y cada 3 salones hay 15 mesas para renovar. Si cada mesa vale 110$ y cada silla vale la mitad que las mesas, cuanta plata tendra que gastar el casino si hay 24 salones?"
 ]
-var resultados = [11640, 20, 1390, 425, 624, 125, 1296, 14, 85, 150, 9000, 5635, 60, 150000, 123, 22350, 23, 8, 55080]
+var resultados = [11640, 20, 1390, 425, 624, 125, 1296, 14, 85, 150, 9000, 5635, 60, 150000, 123, 22350, 23, 8, 55080, 80, 23100]
 
 var numero1 = prompt("elige un numero del 1 al " + (problemas.length) + " o te mato")
 
